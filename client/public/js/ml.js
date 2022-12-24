@@ -2,7 +2,7 @@ let img;
 let detector;
 
 function preload() {
-  img = loadImage("/public/main.webp");
+  img = loadImage("/client/public/person.webp");
   detector = ml5.objectDetector("cocossd");
 }
 
